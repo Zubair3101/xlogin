@@ -22,10 +22,10 @@ function Login() {
     <div>
       <h1>Login Form</h1>
       {loginFlag ? (
-        <p>Welcome, User!</p>
+        <p>Welcome, User</p>
       ) : (
         <>
-          {isError && <p>Invalid Username or Password</p>}
+          {isError && <p>Invalid username or password</p>}
           <form action="submit">
             <div className="username">
               <label htmlFor="username">Username:</label>
