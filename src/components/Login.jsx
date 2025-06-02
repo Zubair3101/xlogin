@@ -30,7 +30,7 @@ function Login() {
             <div className="username">
               <label htmlFor="username">Username:</label>
               <input
-                type="text"
+                type="user"
                 id="username"
                 onChange={(e) => setUsername(e.target.value)}
                 required
